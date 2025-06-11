@@ -8,8 +8,8 @@ The four datasets used in these notebooks were given to us by our partner, Lise 
 
 * i_fod: contains ID numbers, which connect individual fires to the FOD (Fire Occurrence Database)
 * c_summary: this dataset is a "nexus" for the other datasets, and provides important summary data.
-* c_daily: time-series data which tracks developments over the course of the incident
-* i_ref: reference data
+* c_daily: time-series data which tracks developments over the course of the incident.
+* i_ref: reference data, for example geospatial data.
 
 ### Instructions for running the workflow
 The notebook was imported into GitHub from colab. In colab, the notebook runs properly however in order for it to run properly in github, the file paths may need to be edited so that the data can be properly loaded into the notebooks from the .csv files (these are uploaded in the repository).
