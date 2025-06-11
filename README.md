@@ -11,6 +11,8 @@ The four datasets used in these notebooks were given to us by our partner, Lise 
 * c_daily: time-series data which tracks developments over the course of the incident.
 * i_ref: reference data, for example geospatial data.
 
+<NOTE: the i_fod and c_summarry notebooks seem to be unavailable. Could this be due to an issue with the data being unavailable?>
+
 ### Instructions for running the workflow
 The notebook was imported into GitHub from colab. In colab, the notebook runs properly however in order for it to run properly in github, the file paths may need to be edited so that the data can be properly loaded into the notebooks from the .csv files (these are uploaded in the repository).
 
