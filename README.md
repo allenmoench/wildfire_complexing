@@ -14,7 +14,9 @@ The four datasets used in these notebooks were given to us by our partner, Lise 
 <NOTE: the i_fod and c_summarry notebooks seem to be unavailable. Could this be due to an issue with the data being unavailable?>
 
 ## Instructions for running the workflow
-The notebook was imported into GitHub from colab. In colab, the notebook runs properly however in order for it to run properly in github, the file paths may need to be edited so that the data can be properly loaded into the notebooks from the .csv files (these are uploaded in the repository).
+The easiest way to run this workflow is to clone the repository into VS code, and run it using Python 3.11.10. The environment.yml can be installed using bash via the terminal.
+
+The notebooks were imported into GitHub from colab. In colab, the notebook runs properly however in order for it to run properly in github, the file paths may need to be edited so that the data can be properly loaded into the notebooks from the .csv files (these are uploaded in the repository).
 
 Some plots in the notebooks have an issue with lines 9 and 13 in their code, and may need to be run twice (the first of these is in the i_fod notebook). If a particular plot doesn't run properly, try un-commenting lines 9 and 13, running the cell, then commenting out those lines and running it again.
 
